@@ -6,7 +6,7 @@
 #trigger:
 #- main
 schedules:
-- cron: '*/5 * * * *'
+#- cron: '* * * * *'
   always: true
   displayName: Daily midnight build
   branches:
