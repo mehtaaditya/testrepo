@@ -7,6 +7,7 @@
 #- main
 schedules:
 - cron: '*/5 * * * *'
+  always: true
   displayName: Daily midnight build
   branches:
     include:
